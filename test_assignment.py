@@ -6,14 +6,14 @@ def test_loop_over_list():
     
     captured = capture_print_output(assignment.loop_over_list)()
 
-    assert captured == "apple\nbanana\ncarrot\ndate\n"
+    assert captured == "apple\nbanana\ncarrot\ndate"
 
 #4.2
 def test_loop_over_list_and_capitalize():
     captured = capture_print_output(
         assignment.loop_over_list_and_capitalize(['apple', 'banana', 'carrot', 'date'])
         )()
-    assert captured == "0: Apple\n1: Banana\n2: Carrot\n3: Date\n"
+    assert captured == "0: Apple\n1: Banana\n2: Carrot\n3: Date"
     captured = capture_print_output(
         assignment.loop_over_list_and_capitalize(['one', 'two', 'three', 'four', 'five'])
         )()
@@ -24,18 +24,18 @@ def test_print_numbers_1_to_10():
     captured = capture_print_output(
         assignment.print_numbers_1_to_10(['apple', 'banana', 'carrot', 'date'])
         )()
-    assert captured == "1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n"
+    assert captured == "1\n2\n3\n4\n5\n6\n7\n8\n9\n10"
 
 #4.4
 def test_print_numbers_1_to_n():
     captured = capture_print_output(
         assignment.print_numbers_1_to_n(5)
         )()
-    assert captured.out == "1\n2\n3\n4\n5\n"
+    assert captured.out == "1\n2\n3\n4\n5"
     captured = capture_print_output(
         assignment.print_numbers_1_to_n(20)
         )()
-    assert captured == "1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n"
+    assert captured == "1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20"
 
 #4.5
 def test_create_list_of_numbers():
@@ -76,8 +76,8 @@ def test_return_first_index_of_tuple():
 #4.11
 def test_loop_over_tuple():
     captured = capture_print_output(assignment.loop_over_tuple((1, 2, 3)))()
-    assert captured.out == "1\n2\n3\n"
+    assert captured.out == "1\n2\n3"
 
     captured = capture_print_output(assignment.loop_over_tuple((1, 2, 3, 4, 5)))()
-    assert captured.out == "1\n2\n3\n4\n5\n"
+    assert captured.out == "1\n2\n3\n4\n5"
 
