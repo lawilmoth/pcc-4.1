@@ -1,0 +1,144 @@
+{
+  "tests": [
+    {
+      "name": "part1",
+      "setup": "sudo -H pip3 install -r requirements.txt",
+      "run": "pytest test_assignment.py::test_return_first_element",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    }, 
+    {
+      "name": "part2",
+      "setup": "sudo -H pip3 install -r requirements.txt",
+      "run": "pytest test_assignment.py::test_return_last_element",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    }, 
+    {
+      "name": "part3",
+      "setup": "sudo -H pip3 install -r requirements.txt",
+      "run": "pytest test_assignment.py::test_add_element_to_an_fstring",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    }, 
+    {
+      "name": "part4",
+      "setup": "sudo -H pip3 install -r requirements.txt",
+      "run": "pytest test_assignment.py::test_change_the_first_element",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    }, 
+    {
+      "name": "part5",
+      "setup": "sudo -H pip3 install -r requirements.txt",
+      "run": "pytest test_assignment.py::test_change_the_last_element",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    }, 
+    {
+      "name": "part6",
+      "setup": "sudo -H pip3 install -r requirements.txt",
+      "run": "pytest test_assignment.py::test_add_element_to_the_end",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    }, 
+    {
+      "name": "part7",
+      "setup": "sudo -H pip3 install -r requirements.txt",
+      "run": "pytest test_assignment.py::test_add_element_to_the_beginning",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    }, 
+    {
+      "name": "part8",
+      "setup": "sudo -H pip3 install -r requirements.txt",
+      "run": "pytest test_assignment.py::test_remove_last_element",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    }, 
+    {
+      "name": "part9",
+      "setup": "sudo -H pip3 install -r requirements.txt",
+      "run": "pytest test_assignment.py::test_remove_first_element",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    }, 
+    {
+      "name": "part10",
+      "setup": "sudo -H pip3 install -r requirements.txt",
+      "run": "pytest test_assignment.py::test_remove_element_at_index",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    }, 
+    {
+      "name": "part11",
+      "setup": "sudo -H pip3 install -r requirements.txt",
+      "run": "pytest test_assignment.py::test_insert_element_at_index",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    }, 
+    {
+      "name": "part12",
+      "setup": "sudo -H pip3 install -r requirements.txt",
+      "run": "pytest test_assignment.py::test_remove_element_by_value",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },     
+    {
+      "name": "part13",
+      "setup": "sudo -H pip3 install -r requirements.txt",
+      "run": "pytest test_assignment.py::test_sort_list_alphabetically",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },     
+    {
+      "name": "part14",
+      "setup": "sudo -H pip3 install -r requirements.txt",
+      "run": "pytest test_assignment.py::test_reverse_list",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    }
+  ]
+}
