@@ -7,11 +7,12 @@ def loop_over_list():
     raise NotImplementedError
 
 #4.2
-def loop_over_list_and_capitalize(my_list: list):
+def loop_over_list_and_capitalize():
     """Loop over a list of fruits and print the index and the element capitalized
     Ex: 0: Apple
-        1: Banana"""
+        1: Banana ..."""
     #Remember to use the variable name my_list
+    my_list = ["apple", "banana", "carrot", "date"]
     raise NotImplementedError
 
 #4.3
@@ -20,9 +21,9 @@ def print_numbers_1_to_10():
     raise NotImplementedError
 
 #4.4
-def print_numbers_1_to_n(n: int):
+def print_numbers_1_to_n():
     """Print the numbers 1 to n"""
-    #Remember to use the variable
+    n = 15
 
     raise NotImplementedError
 
@@ -70,7 +71,8 @@ def return_first_index_of_tuple(my_tuple: tuple) -> int:
     raise NotImplementedError
 
 #4.11
-def loop_over_tuple(my_tuple: tuple):
+def loop_over_tuple():
     """Loop over the tuple and print each item"""
     #Remember to use the variable name my_tuple
+    my_tuple = (1, 2, 3, 4, 5)
     raise NotImplementedError
